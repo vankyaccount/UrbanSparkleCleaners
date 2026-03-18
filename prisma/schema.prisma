@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  service   String
+  area      String?
+  message   String?
+  source    String?
+  createdAt DateTime @default(now())
+}
+
+model Booking {
+  id            String   @id @default(cuid())
+  name          String
+  email         String
+  phone         String
+  serviceType   String
+  bedrooms      Int?
+  bathrooms     Int?
+  propertyType  String?
+  addons        String[]
+  date          String?
+  address       String?
+  area          String?
+  totalEstimate Float?
+  status        String   @default("pending")
+  createdAt     DateTime @default(now())
+}
+
+model BlogPost {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  content     String
+  excerpt     String
+  metaTitle   String
+  metaDesc    String
+  publishedAt DateTime?
+  author      String    @default("Urban Sparkle Cleaners")
+  category    String?
+  tags        String[]
+  createdAt   DateTime  @default(now())
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model CareerSubmission {
+  id          String   @id @default(cuid())
+  name        String
+  email       String
+  phone       String
+  position    String
+  availability String
+  experience  String
+  message     String?
+  createdAt   DateTime @default(now())
+}

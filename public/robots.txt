@@ -1,0 +1,11 @@
+# robots.txt for Urban Sparkle Cleaners
+# https://urbansparklecleaners.ca
+
+User-agent: *
+Allow: /
+
+# Disallow API routes from indexing
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://urbansparklecleaners.ca/sitemap.xml
