@@ -8,9 +8,7 @@ module.exports = {
   robotsTxtOptions: {
     policies: [
       { userAgent: '*', allow: '/' },
-    ],
-    additionalSitemaps: [
-      'https://urbansparklecleaners.ca/sitemap.xml',
+      { userAgent: '*', disallow: '/api/' },
     ],
   },
   exclude: ['/api/*'],

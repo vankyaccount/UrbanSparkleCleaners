@@ -61,7 +61,7 @@ export default async function AreaPage({
 
       <Breadcrumbs
         items={[
-          { name: "Areas We Serve", url: "/areas/burlington" },
+          { name: "Areas We Serve", url: "/areas" },
           { name: `${area.name}, ${area.province}`, url: `/areas/${city}` },
         ]}
       />
@@ -194,7 +194,7 @@ export default async function AreaPage({
             </h2>
             <div className="rounded-xl overflow-hidden border h-64 md:h-96">
               <iframe
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${area.mapQuery}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=${area.mapQuery}`}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
     title: "Urban Sparkle Cleaners | Professional Cleaning Services",
     description: SITE_CONFIG.description,
-    images: [{ url: "/images/og-default.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -59,9 +59,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en-CA" className={inter.className}>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/images/logo.png" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
         <JsonLd
           data={{
             "@context": "https://schema.org",

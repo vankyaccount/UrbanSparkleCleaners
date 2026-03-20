@@ -10,10 +10,10 @@ interface SEOProps {
 
 export function generatePageMetadata({ title, description, path, image }: SEOProps): Metadata {
   const url = `${SITE_CONFIG.url}${path}`;
-  const ogImage = image || `${SITE_CONFIG.url}/images/og-default.jpg`;
+  const ogImage = image || `${SITE_CONFIG.url}/images/og-image.jpg`;
 
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical: url,

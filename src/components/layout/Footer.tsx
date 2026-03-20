@@ -92,9 +92,13 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
           <p>&copy; {new Date().getFullYear()} Urban Sparkle Cleaners. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <span>Eco-Friendly Products</span>
-            <span>|</span>
+          <div className="flex items-center gap-3 flex-wrap justify-center">
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <span className="text-gray-600">|</span>
+            <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
+            <span className="text-gray-600">|</span>
+            <span>Eco-Friendly</span>
+            <span className="text-gray-600">|</span>
             <span>Satisfaction Guarantee</span>
           </div>
         </div>
