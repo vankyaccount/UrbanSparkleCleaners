@@ -75,6 +75,7 @@ interface ContactEmailData {
   email: string;
   phone: string;
   message: string;
+  subject?: string;
 }
 
 export async function sendContactNotification(data: ContactEmailData) {
@@ -84,7 +85,7 @@ export async function sendContactNotification(data: ContactEmailData) {
     from: `"Urban Sparkle Cleaners" <${process.env.GMAIL_USER || BUSINESS_EMAIL}>`,
     to: BUSINESS_EMAIL,
     replyTo: data.email,
-    subject: `New Contact Form Submission from ${data.name}`,
+    subject: data.subject ?? `New Contact Form Submission from ${data.name}`,
     html: `
       <h2>New Contact Form Submission</h2>
       <p><strong>Name:</strong> ${data.name}</p>
