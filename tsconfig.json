@@ -37,6 +37,7 @@
   ],
   "exclude": [
     "node_modules",
-    "urbansparklecleaners"
+    "urbansparklecleaners",
+    "prisma.config.ts"
   ]
 }
