@@ -37,7 +37,7 @@ export default function BookPage() {
       a: "We understand plans change. Please provide at least 24 hours' notice for cancellations or rescheduling. There's no fee for cancellations made with advance notice."
     },
     {
-      q: "Are your cleaners insured?",
+      q: "Are your technicians insured?",
       a: "Yes! Every member of our cleaning team is fully insured and bonded. You can have complete peace of mind knowing your home is protected."
     },
     {

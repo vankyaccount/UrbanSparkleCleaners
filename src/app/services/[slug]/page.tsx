@@ -103,11 +103,11 @@ export default async function ServicePage({
           {/* Main Content */}
           {content?.content ? (
             <div
-              className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600"
+              className="prose md:prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600"
               dangerouslySetInnerHTML={{ __html: content.content }}
             />
           ) : (
-            <div className="prose prose-lg max-w-none">
+            <div className="prose md:prose-lg max-w-none">
               <h2>About Our {service.name} Service</h2>
               <p>{service.shortDescription}</p>
               <p>

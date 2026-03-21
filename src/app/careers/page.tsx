@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: "Do I need my own transportation?",
-    a: "Yes, our cleaners need reliable transportation to travel to client homes and businesses throughout Burlington, Oakville, Hamilton, and the Niagara Region. A valid driver's licence and a reliable vehicle are required for all cleaning positions."
+    a: "Yes, our technicians need reliable transportation to travel to client homes and businesses throughout Burlington, Oakville, Hamilton, and the Niagara Region. A valid driver's licence and a reliable vehicle are required for all cleaning positions."
   },
   {
     q: "What are the working hours?",

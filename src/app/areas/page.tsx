@@ -21,7 +21,7 @@ export default function AreasPage() {
 
   return (
     <>
-      <JsonLd data={generateLocalBusinessSchema()} />
+      <JsonLd data={generateLocalBusinessSchema(undefined, { includeAggregateRating: false })} />
 
       <Breadcrumbs items={[{ name: "Areas We Serve", url: "/areas" }]} />
 

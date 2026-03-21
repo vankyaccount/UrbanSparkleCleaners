@@ -124,7 +124,7 @@ export function PricingCalculator() {
             }`}
           >
             <p className="font-semibold text-gray-900">Regular Cleaning</p>
-            <p className="text-sm text-gray-500">$30/hour per cleaner</p>
+            <p className="text-sm text-gray-500">$33/hour per technician <span className="line-through text-gray-400">$36</span></p>
           </button>
           <button
             onClick={() => setCleaningType("deep")}
@@ -135,7 +135,7 @@ export function PricingCalculator() {
             }`}
           >
             <p className="font-semibold text-gray-900">Deep Cleaning</p>
-            <p className="text-sm text-gray-500">$40/hour, minimum 2 cleaners</p>
+            <p className="text-sm text-gray-500">$40/hour, minimum 2 technicians</p>
           </button>
         </div>
       </div>

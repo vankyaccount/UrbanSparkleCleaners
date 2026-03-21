@@ -64,7 +64,7 @@ export default function CommercialCleaningPage() {
 
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose md:prose-lg max-w-none">
             <h2>Your Trusted Commercial Cleaning Partner</h2>
             <p>
               Urban Sparkle Cleaners provides exceptional commercial cleaning services tailored to meet

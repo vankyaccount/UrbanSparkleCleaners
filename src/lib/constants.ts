@@ -252,10 +252,10 @@ export const SERVICES: ServiceInfo[] = [
 
 export const PRICING = {
   regular: {
-    hourlyRate: 30,
-    apartment: { minPrice: 90, label: "Apartment (up to 2 bed)" },
-    townhouse: { minPrice: 120, minHours: 4, label: "Townhouse" },
-    house: { minPrice: 150, label: "House (3+ bed)" },
+    hourlyRate: 33,
+    apartment: { minPrice: 99, label: "Apartment (up to 2 bed)" },
+    townhouse: { minPrice: 132, minHours: 4, label: "Townhouse" },
+    house: { minPrice: 165, label: "House (3+ bed)" },
   },
   deep: {
     hourlyRate: 40,

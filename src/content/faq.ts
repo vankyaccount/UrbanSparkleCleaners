@@ -13,10 +13,10 @@ export const HOME_FAQS: FAQ[] = [
   {
     question: "How much do your cleaning services cost?",
     answer:
-      "Our regular cleaning starts from $90 for apartments (up to 2 bedrooms) at $30/hour. Townhouse cleaning starts at $120 with a minimum of 4 hours. Deep cleaning is $40/hour with a minimum of 2 cleaners. Visit our pricing page for a detailed estimate.",
+      "Our regular cleaning starts from $99 for apartments (up to 2 bedrooms) at $33/hour. Townhouse cleaning starts at $132 with a minimum of 4 hours. Deep cleaning is $40/hour with a minimum of 2 technicians. Visit our pricing page for a detailed estimate.",
   },
   {
-    question: "Are your cleaners insured and bonded?",
+    question: "Are your technicians insured and bonded?",
     answer:
       "Yes, all Urban Sparkle Cleaners team members are fully insured and bonded. We carry comprehensive liability insurance for your peace of mind.",
   },
@@ -43,7 +43,7 @@ export const ALL_FAQS: FAQ[] = [
   {
     question: "What is the difference between regular cleaning and deep cleaning?",
     answer:
-      "Regular cleaning covers day-to-day maintenance tasks. Deep cleaning goes further with detailed scrubbing of bathrooms, kitchen appliances, baseboards, light fixtures, window sills, inside cabinets, and other often-overlooked areas. Deep cleaning requires a minimum of 2 cleaners at $40/hour.",
+      "Regular cleaning covers day-to-day maintenance tasks. Deep cleaning goes further with detailed scrubbing of bathrooms, kitchen appliances, baseboards, light fixtures, window sills, inside cabinets, and other often-overlooked areas. Deep cleaning requires a minimum of 2 technicians at $40/hour.",
     category: "Services",
   },
   {
@@ -109,7 +109,7 @@ export const ALL_FAQS: FAQ[] = [
   {
     question: "Are your prices competitive?",
     answer:
-      "Yes! Our regular cleaning starts at just $30/hour ($90 minimum for apartments). We offer transparent pricing with no hidden fees. Visit our pricing page to get an instant estimate.",
+      "Yes! Our regular cleaning starts at just $33/hour ($99 minimum for apartments). We offer transparent pricing with no hidden fees. Visit our pricing page to get an instant estimate.",
     category: "Pricing",
   },
   {

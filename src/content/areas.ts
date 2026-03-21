@@ -31,7 +31,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Burlington?",
         answer:
-          "Regular house cleaning in Burlington starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. We offer transparent pricing with no hidden fees.",
+          "Regular house cleaning in Burlington starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. We offer transparent pricing with no hidden fees.",
       },
       {
         question: "Do you offer eco-friendly cleaning in Burlington?",
@@ -60,7 +60,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
           "We offer regular cleaning, deep cleaning, move-in/move-out cleaning, post-renovation cleaning, Airbnb cleaning, office cleaning, and more in Oakville.",
       },
       {
-        question: "Are your Oakville cleaners insured?",
+        question: "Are your Oakville technicians insured?",
         answer:
           "Yes, our entire team is fully insured and bonded. You can trust us in your Oakville home or business with complete peace of mind.",
       },
@@ -114,7 +114,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       <h2>Our Cleaning Services in Niagara Falls</h2>
       <p>We offer a full range of residential and commercial cleaning services tailored to the needs of Niagara Falls homeowners, renters, and property managers:</p>
       <ul>
-        <li><strong>Regular Cleaning:</strong> Weekly, bi-weekly, or monthly home cleaning to keep your Niagara Falls home consistently spotless. Starting from $30/hr.</li>
+        <li><strong>Regular Cleaning:</strong> Weekly, bi-weekly, or monthly home cleaning to keep your Niagara Falls home consistently spotless. Starting from $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> A comprehensive top-to-bottom clean that covers baseboards, inside appliances, light fixtures, and all the areas that regular cleaning skips. Ideal for homes that haven't been professionally cleaned in a while. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> If you're moving into a new Niagara Falls home or leaving a rental, our move-out cleaning ensures you get your full deposit back and make a great first impression.</li>
         <li><strong>Airbnb & Short-Term Rental Cleaning:</strong> Niagara Falls is one of Ontario's top tourist destinations, and we understand how critical quick, thorough turnovers are for Airbnb hosts. We work around your guest schedule to keep your property five-star ready at all times.</li>
@@ -126,10 +126,10 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       <h2>Why Niagara Falls Homeowners Choose Urban Sparkle Cleaners</h2>
       <p>There are many cleaning services operating in the Niagara Falls area, but Urban Sparkle Cleaners stands apart for several important reasons:</p>
       <ul>
-        <li><strong>Fully Insured Team:</strong> Our cleaners are fully insured and bonded, giving you complete peace of mind every time we enter your home or business.</li>
+        <li><strong>Fully Insured Team:</strong> Our technicians are fully insured and bonded, giving you complete peace of mind every time we enter your home or business.</li>
         <li><strong>Eco-Friendly Products:</strong> We use plant-based, non-toxic cleaning products that are safe for children, pets, and the environment — a growing priority for Niagara Falls families who care about their community and the natural environment around them.</li>
         <li><strong>Satisfaction Guarantee:</strong> If anything is missed or you're not completely happy after your clean, contact us within 24 hours and we'll return to fix it at no charge.</li>
-        <li><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Our pricing is clear upfront. Regular cleaning starts at $30/hr ($90 minimum), and deep cleaning starts at $40/hr.</li>
+        <li><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Our pricing is clear upfront. Regular cleaning starts at $33/hr ($99 minimum), and deep cleaning starts at $40/hr.</li>
         <li><strong>Flexible Scheduling:</strong> We work around your life — early mornings, daytime, or whatever fits your schedule in Niagara Falls.</li>
         <li><strong>Experienced & Reliable:</strong> Our team shows up on time, every time, equipped and ready to deliver consistent, high-quality results.</li>
       </ul>
@@ -156,7 +156,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Niagara Falls?",
         answer:
-          "Regular house cleaning in Niagara Falls starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Move-out cleaning varies by home size. Use our online pricing calculator for an instant estimate.",
+          "Regular house cleaning in Niagara Falls starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Move-out cleaning varies by home size. Use our online pricing calculator for an instant estimate.",
       },
       {
         question: "Do you offer Airbnb cleaning in Niagara Falls?",
@@ -169,7 +169,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
           "We serve all of Niagara Falls including Chippawa, Stamford, Queenston, Lundy's Lane, Fallsview, Drummond Road area, Montrose Road area, and everywhere in between.",
       },
       {
-        question: "Are your Niagara Falls cleaners insured?",
+        question: "Are your Niagara Falls technicians insured?",
         answer:
           "Yes. Our entire team is fully insured. You can trust Urban Sparkle Cleaners in your Niagara Falls home or business with complete confidence.",
       },
@@ -207,7 +207,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       <h2>Our Cleaning Services in St. Catharines</h2>
       <p>Our full range of cleaning services is available throughout St. Catharines:</p>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to maintain a consistently clean and healthy home. Starting at $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to maintain a consistently clean and healthy home. Starting at $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> A thorough, head-to-toe clean of your entire home, covering every surface, corner, and appliance. Perfect for seasonal cleaning or when a home hasn't been professionally cleaned recently. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> St. Catharines has a very active rental market with a high student population near Brock University. Our move-out cleaning service ensures every tenant leaves their rental in perfect condition — and every landlord has a spotless property ready for the next tenant.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Renovation dust is a persistent problem. Our post-renovation cleaning team in St. Catharines removes all construction residue from every surface, leaving your newly renovated space ready to enjoy.</li>
@@ -221,7 +221,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
         <li><strong>Fully Insured:</strong> Every member of our cleaning team is fully insured and bonded — your home is in safe hands.</li>
         <li><strong>Eco-Friendly Products:</strong> We use plant-based cleaning products that are non-toxic and safe for children, pets, and the environment. Especially important in a community like St. Catharines that values its natural surroundings.</li>
         <li><strong>Satisfaction Guarantee:</strong> Not happy with any aspect of your clean? We'll come back and fix it within 24 hours at no cost.</li>
-        <li><strong>Transparent Pricing:</strong> Regular cleaning from $30/hr ($90 minimum), deep cleaning from $40/hr. No hidden fees — ever.</li>
+        <li><strong>Transparent Pricing:</strong> Regular cleaning from $33/hr ($99 minimum), deep cleaning from $40/hr. No hidden fees — ever.</li>
         <li><strong>Flexible Scheduling:</strong> We accommodate your schedule, whether you're a Brock student needing a weekend appointment or a busy parent who prefers daytime weekday visits.</li>
       </ul>
 
@@ -247,7 +247,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in St. Catharines?",
         answer:
-          "Regular cleaning in St. Catharines starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour with a 2-cleaner minimum. Visit our pricing page for a full breakdown.",
+          "Regular cleaning in St. Catharines starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour with a 2-technician minimum. Visit our pricing page for a full breakdown.",
       },
       {
         question: "Do you offer move-out cleaning near Brock University in St. Catharines?",
@@ -320,7 +320,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Niagara-on-the-Lake?",
         answer:
-          "Regular cleaning starts at $30/hour ($90 minimum). Airbnb turnover pricing depends on property size and frequency. Contact us for a custom quote.",
+          "Regular cleaning starts at $33/hour ($99 minimum). Airbnb turnover pricing depends on property size and frequency. Contact us for a custom quote.",
       },
       {
         question: "Do you serve all of Niagara-on-the-Lake?",
@@ -343,7 +343,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services We Offer in Welland</h2>
       <ul>
-        <li><strong>Regular Cleaning:</strong> Weekly, bi-weekly, or monthly home cleaning to keep your Welland home consistently clean and healthy. Starting at $30/hr.</li>
+        <li><strong>Regular Cleaning:</strong> Weekly, bi-weekly, or monthly home cleaning to keep your Welland home consistently clean and healthy. Starting at $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> A comprehensive clean that reaches baseboards, inside appliances, window tracks, light fixtures, and all the areas regular cleaning misses. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Whether you're moving to or from a Welland rental or home, our move-out cleaning service ensures a spotless property.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Construction dust is everywhere after a reno. Our team handles all cleanup so you can enjoy your newly renovated Welland home right away.</li>
@@ -353,7 +353,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Why Welland Homeowners Choose Us</h2>
       <ul>
-        <li>Fully insured and bonded cleaners</li>
+        <li>Fully insured and bonded technicians</li>
         <li>Plant-based, eco-friendly products safe for families and pets</li>
         <li>Transparent pricing — no hidden fees</li>
         <li>Satisfaction Guarantee — we return and fix any issues within 24 hours</li>
@@ -373,7 +373,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Welland?",
         answer:
-          "Regular cleaning in Welland starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Use our online calculator for an instant estimate.",
+          "Regular cleaning in Welland starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Use our online calculator for an instant estimate.",
       },
       {
         question: "Do you offer move-out cleaning in Welland?",
@@ -401,7 +401,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services Available in Grimsby</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly home maintenance cleaning. Starting at $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly home maintenance cleaning. Starting at $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Comprehensive top-to-bottom cleaning for homes that need a thorough refresh. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Perfect for Grimsby's active real estate market. We ensure every property is spotless for new occupants.</li>
         <li><strong>Post-Renovation Cleaning:</strong> With Grimsby's construction boom, many homeowners need professional post-reno cleanup. We handle it all.</li>
@@ -427,7 +427,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Grimsby?",
         answer:
-          "Regular cleaning starts at $30/hr with a $90 minimum. Deep cleaning starts at $40/hr. Use our pricing calculator for an instant estimate.",
+          "Regular cleaning starts at $33/hr with a $99 minimum. Deep cleaning starts at $40/hr. Use our pricing calculator for an instant estimate.",
       },
       {
         question: "Do you serve Beamsville and Lincoln near Grimsby?",
@@ -450,7 +450,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Thorold</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly — keep your Thorold home consistently clean. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly — keep your Thorold home consistently clean. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Full top-to-bottom cleaning for homes that need extra attention. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> We help Thorold tenants and landlords transition properties cleanly and quickly.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Remove every trace of construction dust and debris after your Thorold renovation project.</li>
@@ -463,7 +463,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
         <li>Eco-friendly, non-toxic cleaning products</li>
         <li>Flexible scheduling — mornings, afternoons, whatever works</li>
         <li>Satisfaction Guarantee — we return to fix any issues within 24 hours</li>
-        <li>Transparent pricing — regular cleaning from $30/hr, no hidden fees</li>
+        <li>Transparent pricing — regular cleaning from $33/hr, no hidden fees</li>
       </ul>
 
       <p>In addition to Thorold, we serve all nearby Niagara communities including St. Catharines, Welland, Niagara Falls, and Niagara-on-the-Lake. Book online or call (647) 460-7008.</p>
@@ -477,7 +477,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Thorold?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
       },
       {
         question: "Do you also serve St. Catharines and Welland near Thorold?",
@@ -509,7 +509,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Our Cleaning Services in Fort Erie</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Fort Erie home in top shape. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Fort Erie home in top shape. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Thorough top-to-bottom cleaning for cottages being opened for the season or homes needing a fresh start. From $40/hr.</li>
         <li><strong>Airbnb & Cottage Cleaning:</strong> Fort Erie and Crystal Beach are popular destinations for summer visitors. We provide fast, reliable turnovers for vacation rentals and seasonal cottages.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Whether you're buying, selling, or renting in Fort Erie, our move-out clean guarantees a spotless transition.</li>
@@ -548,7 +548,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Fort Erie?",
         answer:
-          "Regular cleaning starts at $30/hr ($90 minimum). Deep cleaning from $40/hr. Airbnb and cottage cleaning is priced by property size. Contact us for a custom quote.",
+          "Regular cleaning starts at $33/hr ($99 minimum). Deep cleaning from $40/hr. Airbnb and cottage cleaning is priced by property size. Contact us for a custom quote.",
       },
     ],
   },
@@ -566,7 +566,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Stoney Creek</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly — keep your Stoney Creek home consistently clean. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly — keep your Stoney Creek home consistently clean. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Comprehensive cleaning that reaches every corner, including baseboards, inside appliances, and window tracks. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Help for anyone buying, selling, or renting in Stoney Creek's active housing market.</li>
         <li><strong>Commercial Cleaning:</strong> Office and business cleaning for Stoney Creek commercial properties.</li>
@@ -577,7 +577,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
         <li>Fully insured team</li>
         <li>Eco-friendly, non-toxic products</li>
         <li>Satisfaction Guarantee</li>
-        <li>Transparent pricing from $30/hr</li>
+        <li>Transparent pricing from $33/hr</li>
       </ul>
 
       <p>We also serve Hamilton, Grimsby, Ancaster, and surrounding communities. Call (647) 460-7008 to book.</p>
@@ -591,7 +591,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Stoney Creek?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour.",
       },
     ],
   },
@@ -609,7 +609,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services Available in Ancaster</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to maintain your Ancaster home at its best. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to maintain your Ancaster home at its best. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Thorough top-to-bottom cleaning for larger Ancaster homes. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> We help Ancaster families transition seamlessly in and out of their properties.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Many Ancaster homes are renovated. We handle all post-construction cleanup.</li>
@@ -635,7 +635,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Ancaster?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Larger homes may require more time — contact us for a custom quote.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Larger homes may require more time — contact us for a custom quote.",
       },
     ],
   },
@@ -653,7 +653,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Waterdown</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning for busy Waterdown families. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning for busy Waterdown families. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Comprehensive cleaning that goes beyond the surface — inside appliances, baseboards, and more. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Waterdown's growing real estate market keeps us busy with move-in and move-out cleaning for families on the move.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Many Waterdown homeowners are renovating. We handle the cleanup.</li>
@@ -664,7 +664,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
         <li>Fully insured team</li>
         <li>Eco-friendly, family-safe products</li>
         <li>Satisfaction Guarantee</li>
-        <li>Transparent pricing starting at $30/hr</li>
+        <li>Transparent pricing starting at $33/hr</li>
         <li>Flexible scheduling for busy families</li>
       </ul>
 
@@ -679,7 +679,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Waterdown?",
         answer:
-          "Regular cleaning starts at $30/hour ($90 minimum). Deep cleaning starts at $40/hour.",
+          "Regular cleaning starts at $33/hour ($99 minimum). Deep cleaning starts at $40/hour.",
       },
     ],
   },
@@ -697,7 +697,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Fonthill</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Fonthill home consistently clean. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Fonthill home consistently clean. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Thorough top-to-bottom cleaning for homes that need extra attention. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Fonthill's active real estate market keeps us busy helping families transition smoothly.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Many Fonthill homeowners are renovating and expanding. We handle all post-construction cleanup.</li>
@@ -724,7 +724,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Fonthill?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
       },
       {
         question: "Do you serve all neighbourhoods in Fonthill?",
@@ -755,7 +755,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Pelham</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning throughout Pelham. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning throughout Pelham. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Comprehensive cleaning that covers baseboards, inside appliances, window tracks, and more. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> We help Pelham families with every move, ensuring spotless properties.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Pelham homeowners are renovating. We remove every trace of construction dust.</li>
@@ -782,7 +782,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does cleaning cost in Pelham?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Rural properties and larger homes may require custom quotes.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Rural properties and larger homes may require custom quotes.",
       },
     ],
   },
@@ -808,7 +808,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Lincoln</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning for Lincoln homeowners. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning for Lincoln homeowners. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Thorough top-to-bottom cleaning for larger properties and heritage homes. From $40/hr.</li>
         <li><strong>Airbnb & Vacation Rental Cleaning:</strong> Lincoln's wine country attracts many visitors. We provide fast turnovers for vacation rentals and B&Bs.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> Lincoln's real estate market is active. We ensure spotless transitions.</li>
@@ -835,7 +835,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Lincoln?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Larger properties and vineyard estates may require custom quotes.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Larger properties and vineyard estates may require custom quotes.",
       },
       {
         question: "Do you offer Airbnb cleaning for vacation rentals in Lincoln?",
@@ -858,7 +858,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Cleaning Services in Port Colborne</h2>
       <ul>
-        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Port Colborne home consistently clean. From $30/hr.</li>
+        <li><strong>Regular House Cleaning:</strong> Weekly, bi-weekly, or monthly cleaning to keep your Port Colborne home consistently clean. From $33/hr.</li>
         <li><strong>Deep Cleaning:</strong> Comprehensive top-to-bottom cleaning for homes that need extra attention. From $40/hr.</li>
         <li><strong>Move-In / Move-Out Cleaning:</strong> We help Port Colborne renters and homeowners with every move, ensuring spotless properties.</li>
         <li><strong>Post-Renovation Cleaning:</strong> Construction dust is everywhere after a reno. We handle all cleanup.</li>
@@ -868,7 +868,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
 
       <h2>Why Port Colborne Residents Choose Urban Sparkle Cleaners</h2>
       <ul>
-        <li>Fully insured and bonded cleaners</li>
+        <li>Fully insured and bonded technicians</li>
         <li>Eco-friendly, non-toxic products safe for families and the lakeside environment</li>
         <li>Satisfaction Guarantee — we return within 24 hours if anything is missed</li>
         <li>Transparent pricing — no hidden fees</li>
@@ -886,7 +886,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
       {
         question: "How much does house cleaning cost in Port Colborne?",
         answer:
-          "Regular cleaning starts at $30/hour with a $90 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
+          "Regular cleaning starts at $33/hour with a $99 minimum. Deep cleaning starts at $40/hour. Use our pricing calculator for an instant estimate.",
       },
       {
         question: "Do you also serve Welland and Fort Erie?",

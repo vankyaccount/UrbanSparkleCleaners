@@ -9,7 +9,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = generatePageMetadata({
   title: "Cleaning Service Pricing Calculator | Urban Sparkle Cleaners",
   description:
-    "Get an instant cleaning price estimate. Regular cleaning from $30/hr ($90 min). Deep cleaning from $40/hr. Transparent pricing, no hidden fees. Serving Burlington, Oakville, Hamilton & Niagara.",
+    "Get an instant cleaning price estimate. Regular cleaning from $33/hr ($99 min, reg. $36/hr). Deep cleaning from $40/hr. Transparent pricing, no hidden fees. Serving Burlington, Oakville, Hamilton & Niagara.",
   path: "/pricing",
 });
 
@@ -27,7 +27,7 @@ export default function PricingPage() {
           },
           offers: {
             "@type": "AggregateOffer",
-            lowPrice: "90",
+            lowPrice: "99",
             highPrice: "300",
             priceCurrency: "CAD",
           },
@@ -42,7 +42,7 @@ export default function PricingPage() {
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Get an instant estimate for your cleaning needs. Transparent pricing with no hidden fees.
-              Regular cleaning from $30/hour, deep cleaning from $40/hour.
+              Regular cleaning from $33/hour (reg. $36/hr), deep cleaning from $40/hour.
             </p>
           </div>
 
@@ -209,18 +209,18 @@ export default function PricingPage() {
                 <tbody>
                   <tr className="border-b">
                     <td className="p-4 font-medium">Apartment (up to 2 bed)</td>
-                    <td className="p-4 text-center">From $90 ($30/hr)</td>
-                    <td className="p-4 text-center">From $120 ($40/hr, min 2 cleaners)</td>
+                    <td className="p-4 text-center">From $99 ($33/hr)</td>
+                    <td className="p-4 text-center">From $120 ($40/hr, min 2 technicians)</td>
                   </tr>
                   <tr className="border-b bg-gray-50">
                     <td className="p-4 font-medium">Townhouse</td>
-                    <td className="p-4 text-center">From $120 ($30/hr, min 4 hrs)</td>
-                    <td className="p-4 text-center">From $160 ($40/hr, min 2 cleaners)</td>
+                    <td className="p-4 text-center">From $132 ($33/hr, min 4 hrs)</td>
+                    <td className="p-4 text-center">From $160 ($40/hr, min 2 technicians)</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-medium">House (3+ bed)</td>
-                    <td className="p-4 text-center">From $150 ($30/hr)</td>
-                    <td className="p-4 text-center">From $200 ($40/hr, min 2 cleaners)</td>
+                    <td className="p-4 text-center">From $165 ($33/hr)</td>
+                    <td className="p-4 text-center">From $200 ($40/hr, min 2 technicians)</td>
                   </tr>
                 </tbody>
               </table>

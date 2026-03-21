@@ -22,7 +22,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     slug: "regular-cleaning",
     name: "Regular Cleaning",
     metaTitle: "Regular Cleaning Services | Urban Sparkle Cleaners",
-    metaDescription: "Book weekly, bi-weekly, or monthly cleaning in Burlington, Oakville & Hamilton. Starting at $30/hr. Eco-friendly products. Call (647) 460-7008 today!",
+    metaDescription: "Book weekly, bi-weekly, or monthly cleaning in Burlington, Oakville & Hamilton. Starting at $33/hr. Eco-friendly products. Call (647) 460-7008 today!",
     heroHeading: "Regular Cleaning Services in Burlington & the Greater Hamilton Area",
     heroSubheading: "Consistent, reliable home cleaning on a schedule that works for you — weekly, bi-weekly, or monthly maintenance to keep your space spotless year-round.",
     content: `
@@ -55,7 +55,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
         <li><strong>Eco-Friendly Products:</strong> We use environmentally responsible cleaning products that are safe for your family, your pets, and the planet. Our green cleaning approach delivers exceptional results without toxic chemicals.</li>
         <li><strong>Fully Insured:</strong> Every member of our cleaning team is fully insured, giving you complete peace of mind every time we enter your home.</li>
         <li><strong>Satisfaction Guarantee:</strong> If you're not completely satisfied with any aspect of our cleaning, contact us within 24 hours and we'll return to make it right — at no additional cost.</li>
-        <li><strong>Affordable Rates:</strong> Our regular cleaning service starts at just $30 per hour, with apartment cleanings available from $90. We believe professional cleaning should be accessible to everyone.</li>
+        <li><strong>Affordable Rates:</strong> Our regular cleaning service starts at just $33 per hour, with apartment cleanings available from $99. We believe professional cleaning should be accessible to everyone.</li>
       </ul>
 
       <h2>Serving Communities Across Southern Ontario</h2>
@@ -80,7 +80,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     faqs: [
       {
         question: "How much does regular cleaning cost in Burlington and Hamilton?",
-        answer: "Our regular cleaning service starts at just $30 per hour, with apartment cleanings starting from $90. The total cost depends on the size of your home and the level of cleaning required. Contact us at (647) 460-7008 for a personalized quote."
+        answer: "Our regular cleaning service starts at just $33 per hour, with apartment cleanings starting from $99. The total cost depends on the size of your home and the level of cleaning required. Contact us at (647) 460-7008 for a personalized quote."
       },
       {
         question: "Can I change my cleaning schedule or frequency?",
@@ -131,7 +131,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       </ul>
 
       <h2>Professional Teams, Professional Results</h2>
-      <p>Our deep cleaning service starts at $40 per hour and requires a minimum of two cleaners to ensure thoroughness and efficiency. For an average-sized home in the Burlington or Hamilton area, a deep clean typically takes between three and five hours depending on the home's size and current condition. Our teams work systematically room by room, following a detailed checklist to ensure nothing is missed.</p>
+      <p>Our deep cleaning service starts at $40 per hour and requires a minimum of two technicians to ensure thoroughness and efficiency. For an average-sized home in the Burlington or Hamilton area, a deep clean typically takes between three and five hours depending on the home's size and current condition. Our teams work systematically room by room, following a detailed checklist to ensure nothing is missed.</p>
       <p>Every cleaner on our team is fully insured and trained in our proprietary deep cleaning protocols. We use eco-friendly, non-toxic products that are safe for children, pets, and people with chemical sensitivities. Our commitment to green cleaning means you get a sparkling home without compromising your family's health or the environment.</p>
 
       <h2>Trusted Across Southern Ontario</h2>
@@ -158,11 +158,11 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     faqs: [
       {
         question: "How long does a deep cleaning take?",
-        answer: "A typical deep clean for an average-sized home takes between 3 and 5 hours with a team of two cleaners. Larger homes or those that haven't been professionally cleaned in a long time may take longer. We'll provide an accurate time estimate when you book."
+        answer: "A typical deep clean for an average-sized home takes between 3 and 5 hours with a team of two technicians. Larger homes or those that haven't been professionally cleaned in a long time may take longer. We'll provide an accurate time estimate when you book."
       },
       {
         question: "How much does deep cleaning cost in the Burlington and Hamilton area?",
-        answer: "Our deep cleaning service starts at $40 per hour with a minimum of two cleaners. The total cost depends on the size and condition of your home. Contact us at (647) 460-7008 for a free, no-obligation quote tailored to your specific needs."
+        answer: "Our deep cleaning service starts at $40 per hour with a minimum of two technicians. The total cost depends on the size and condition of your home. Contact us at (647) 460-7008 for a free, no-obligation quote tailored to your specific needs."
       },
       {
         question: "How often should I get a deep cleaning?",
@@ -519,7 +519,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     slug: "senior-cleaning",
     name: "Senior Cleaning Services",
     metaTitle: "Senior Cleaning Services | Urban Sparkle Cleaners",
-    metaDescription: "Gentle, respectful cleaning services for seniors in Burlington, Oakville & Hamilton. Trusted, insured cleaners. Call (647) 460-7008 today.",
+    metaDescription: "Gentle, respectful cleaning services for seniors in Burlington, Oakville & Hamilton. Trusted, insured technicians. Call (647) 460-7008 today.",
     heroHeading: "Senior Cleaning Services in Burlington, Oakville & Hamilton",
     heroSubheading: "Compassionate, dependable cleaning services tailored to the unique needs of seniors — helping you or your loved ones enjoy a clean, safe, and comfortable home.",
     content: `
@@ -532,7 +532,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       <h3>Trusted, Vetted Cleaners</h3>
       <p>We understand that inviting someone into a senior's home requires a higher level of trust. Every member of our team is thoroughly vetted, fully insured, and trained specifically in the protocols for cleaning senior residences. We assign consistent cleaning professionals to each senior client, so the same familiar, trusted face arrives every visit. This consistency builds comfort and rapport over time — especially important for seniors who may feel uneasy with unfamiliar people in their home.</p>
       <h3>Gentle, Respectful Approach</h3>
-      <p>Our cleaners are trained to work quietly and respectfully, understanding that they are guests in someone's personal space. We never rearrange personal belongings without permission, we communicate clearly about what we'll be doing during each visit, and we're always happy to accommodate specific preferences or routines. If a client prefers that certain rooms not be cleaned during a particular visit, or has specific instructions about fragile items, we follow those wishes without question.</p>
+      <p>Our technicians are trained to work quietly and respectfully, understanding that they are guests in someone's personal space. We never rearrange personal belongings without permission, we communicate clearly about what we'll be doing during each visit, and we're always happy to accommodate specific preferences or routines. If a client prefers that certain rooms not be cleaned during a particular visit, or has specific instructions about fragile items, we follow those wishes without question.</p>
       <h3>Safe, Eco-Friendly Products</h3>
       <p>Many seniors have heightened sensitivities to chemical fumes and fragrances. We use eco-friendly, non-toxic cleaning products that are gentle on respiratory systems and safe for people with allergies, asthma, or COPD. Our products are effective at sanitizing and disinfecting without leaving behind the strong chemical odors that can cause headaches, dizziness, or breathing difficulties.</p>
 
@@ -552,7 +552,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       <p>Our service also provides peace of mind for adult children and family caregivers. Knowing that a trusted, reliable cleaning team is visiting your parent or grandparent regularly means one less thing to worry about in the caregiving journey. Many families coordinate our cleaning visits with other in-home support services for comprehensive care.</p>
 
       <h2>Flexible Plans for Every Budget</h2>
-      <p>We offer weekly, bi-weekly, and monthly cleaning schedules to accommodate different needs and budgets. Whether your loved one needs a weekly maintenance clean to keep their home tidy or a bi-weekly visit to manage the essentials, we create a plan that works. Our transparent pricing starts at just $30 per hour with no hidden fees.</p>
+      <p>We offer weekly, bi-weekly, and monthly cleaning schedules to accommodate different needs and budgets. Whether your loved one needs a weekly maintenance clean to keep their home tidy or a bi-weekly visit to manage the essentials, we create a plan that works. Our transparent pricing starts at just $33 per hour with no hidden fees.</p>
 
       <h2>Serving Seniors Across the Region</h2>
       <p>Urban Sparkle Cleaners proudly provides senior cleaning services throughout Burlington, Oakville, Hamilton, Grimsby, Stoney Creek, Ancaster, Waterdown, Niagara Falls, Niagara-on-the-Lake, St. Catharines, Welland, and Thorold. Whether your loved one lives in a single-family home, a retirement community, or a condominium, we bring the same level of care and attention to every appointment.</p>
@@ -572,7 +572,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     ],
     faqs: [
       {
-        question: "Are your cleaners trained to work with seniors?",
+        question: "Are your technicians trained to work with seniors?",
         answer: "Yes. Our team members who provide senior cleaning services are specifically trained in the protocols and sensitivities required when working in a senior's home. This includes patience, clear communication, respectful handling of personal belongings, and awareness of safety considerations like mobility aids and fall risks."
       },
       {
@@ -615,7 +615,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       <h3>Open-Concept Layouts</h3>
       <p>Many condos in Burlington and Oakville feature open-concept kitchens, living rooms, and dining areas. This design means cooking grease, odors, and dust circulate freely throughout the living space. Our cleaning approach addresses this by paying extra attention to the kitchen area and ensuring all connected surfaces are thoroughly cleaned and deodorized.</p>
       <h3>Compact Spaces</h3>
-      <p>In a condo, every square foot matters. Our cleaners are efficient and methodical, maximizing the impact of every minute spent in your home. We work systematically through your unit, ensuring no area is overlooked — including the small spaces that are easy to neglect, like the gap between the washer and dryer, the inside of hallway closets, and the space beneath bathroom vanities.</p>
+      <p>In a condo, every square foot matters. Our technicians are efficient and methodical, maximizing the impact of every minute spent in your home. We work systematically through your unit, ensuring no area is overlooked — including the small spaces that are easy to neglect, like the gap between the washer and dryer, the inside of hallway closets, and the space beneath bathroom vanities.</p>
       <h3>Building Considerations</h3>
       <p>We understand the logistics of working in condo buildings — elevator scheduling, visitor parking, concierge protocols, and noise considerations. Our team arrives prepared, communicates with building staff as needed, and conducts the cleaning efficiently and respectfully. We bring all our own supplies and equipment, so there's no need for multiple trips from the car.</p>
 

@@ -56,7 +56,7 @@ export default async function AreaPage({
 
   return (
     <>
-      <JsonLd data={generateLocalBusinessSchema(area.name)} />
+      <JsonLd data={generateLocalBusinessSchema(area.name, { includeAggregateRating: false })} />
       {content?.faqs && <JsonLd data={generateFAQSchema(content.faqs)} />}
 
       <Breadcrumbs
@@ -101,11 +101,11 @@ export default async function AreaPage({
           {/* Main Content */}
           {content?.content ? (
             <div
-              className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600"
+              className="prose md:prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600"
               dangerouslySetInnerHTML={{ __html: content.content }}
             />
           ) : (
-            <div className="prose prose-lg max-w-none">
+            <div className="prose md:prose-lg max-w-none">
               <h2>Professional Cleaning Services in {area.name}, Ontario</h2>
               <p>
                 Urban Sparkle Cleaners is your trusted cleaning partner in {area.name}, ON.
@@ -152,7 +152,7 @@ export default async function AreaPage({
               Cleaning Prices in {area.name}
             </h2>
             <p className="text-gray-600 mb-2">
-              Regular cleaning from <strong>$30/hour</strong> ($90 min) | Deep cleaning from <strong>$40/hour</strong>
+              Regular cleaning from <strong>$33/hour</strong> ($99 min) | Deep cleaning from <strong>$40/hour</strong>
             </p>
             <p className="text-gray-600 mb-4">Transparent pricing, no hidden fees.</p>
             <Link
@@ -188,23 +188,25 @@ export default async function AreaPage({
           )}
 
           {/* Google Map */}
-          <div className="mt-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Find Us in {area.name}
-            </h2>
-            <div className="rounded-xl overflow-hidden border h-64 md:h-96">
-              <iframe
-                src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=${area.mapQuery}`}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title={`Map of ${area.name}, Ontario`}
-              />
+          {process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY && (
+            <div className="mt-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                Find Us in {area.name}
+              </h2>
+              <div className="rounded-xl overflow-hidden border h-64 md:h-96">
+                <iframe
+                  src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=${area.mapQuery}`}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title={`Map of ${area.name}, Ontario`}
+                />
+              </div>
             </div>
-          </div>
+          )}
 
           {/* FAQs */}
           {content?.faqs && content.faqs.length > 0 && (

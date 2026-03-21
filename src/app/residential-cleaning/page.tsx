@@ -60,7 +60,7 @@ export default function ResidentialCleaningPage() {
 
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose md:prose-lg max-w-none">
             <h2>Your Spotless Home Sanctuary</h2>
             <p>
               At Urban Sparkle Cleaners, we understand that your home is your sanctuary. Our residential
@@ -74,14 +74,14 @@ export default function ResidentialCleaningPage() {
             <h3>Regular Cleaning</h3>
             <p>
               Maintain a consistently clean home with our flexible weekly, bi-weekly, or monthly
-              cleaning services. Starting from just $90 for apartments ($30/hour), our regular
+              cleaning services. Starting from just $99 for apartments ($33/hour), our regular
               cleaning covers all the essentials to keep your home looking its best.
             </p>
 
             <h3>Deep Cleaning</h3>
             <p>
               When your home needs extra attention, our deep cleaning service goes top-to-bottom.
-              At $40/hour with a minimum of 2 cleaners, we tackle baseboards, light fixtures,
+              At $40/hour with a minimum of 2 technicians, we tackle baseboards, light fixtures,
               inside cabinets, and every hidden corner that regular cleaning misses.
             </p>
 
@@ -106,7 +106,7 @@ export default function ResidentialCleaningPage() {
               <li><strong>Fully Insured:</strong> Complete peace of mind with comprehensive liability coverage</li>
               <li><strong>Satisfaction Guarantee:</strong> Not happy? We&apos;ll re-clean at no extra charge</li>
               <li><strong>Flexible Scheduling:</strong> Weekly, bi-weekly, or monthly plans available</li>
-              <li><strong>Transparent Pricing:</strong> No hidden fees, starting from $30/hour</li>
+              <li><strong>Transparent Pricing:</strong> No hidden fees, starting from $33/hour</li>
               <li><strong>Experienced Team:</strong> Trained, vetted professionals you can trust in your home</li>
             </ul>
           </div>

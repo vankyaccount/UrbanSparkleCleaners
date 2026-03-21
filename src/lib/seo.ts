@@ -36,7 +36,7 @@ export function generatePageMetadata({ title, description, path, image }: SEOPro
   };
 }
 
-export function generateLocalBusinessSchema(city?: string) {
+export function generateLocalBusinessSchema(city?: string, options?: { includeAggregateRating?: boolean }) {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -64,12 +64,14 @@ export function generateLocalBusinessSchema(city?: string) {
           { "@type": "City", name: "Welland" },
           { "@type": "City", name: "Thorold" },
         ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "50",
-      bestRating: "5",
-    },
+    ...(options?.includeAggregateRating !== false && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "50",
+        bestRating: "5",
+      },
+    }),
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",

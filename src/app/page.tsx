@@ -25,10 +25,10 @@ export default function HomePage() {
       <section className="py-12 bg-accent/10 border-y border-accent/20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Transparent Pricing — Starting from Just $90
+            Transparent Pricing — Starting from Just $99
           </h2>
           <p className="text-gray-600 mb-6">
-            Regular cleaning from $30/hour. Deep cleaning from $40/hour. No hidden fees.
+            Regular cleaning from $33/hour (reg. $36/hr). Deep cleaning from $40/hour. No hidden fees.
           </p>
           <Link
             href="/pricing"

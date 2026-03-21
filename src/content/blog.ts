@@ -23,21 +23,21 @@ export const BLOG_POSTS: BlogPostData[] = [
       <p>If you're looking for house cleaning services in Burlington, Ontario, understanding pricing is essential for budgeting. As a professional cleaning company serving Burlington, we're sharing transparent pricing information to help you make an informed decision.</p>
 
       <h2>How Much Does House Cleaning Cost in Burlington?</h2>
-      <p>House cleaning prices in Burlington typically range from $90 to $300+ depending on the type of service, size of your home, and frequency of cleaning. Here's a detailed breakdown:</p>
+      <p>House cleaning prices in Burlington typically range from $99 to $300+ depending on the type of service, size of your home, and frequency of cleaning. Here's a detailed breakdown:</p>
 
       <h3>Regular Cleaning Prices</h3>
       <ul>
-        <li><strong>Apartment (up to 2 bedrooms):</strong> From $90 ($30/hour)</li>
-        <li><strong>Townhouse:</strong> From $120 ($30/hour, minimum 4 hours)</li>
-        <li><strong>House (3+ bedrooms):</strong> From $150 ($30/hour)</li>
+        <li><strong>Apartment (up to 2 bedrooms):</strong> From $99 ($33/hour)</li>
+        <li><strong>Townhouse:</strong> From $132 ($33/hour, minimum 4 hours)</li>
+        <li><strong>House (3+ bedrooms):</strong> From $165 ($33/hour)</li>
       </ul>
       <p>Regular cleaning includes dusting, vacuuming, mopping, bathroom cleaning, kitchen cleaning, and general tidying.</p>
 
       <h3>Deep Cleaning Prices</h3>
       <ul>
-        <li><strong>Apartment:</strong> From $120 ($40/hour, minimum 2 cleaners)</li>
-        <li><strong>Townhouse:</strong> From $160 ($40/hour, minimum 2 cleaners)</li>
-        <li><strong>House:</strong> From $200 ($40/hour, minimum 2 cleaners)</li>
+        <li><strong>Apartment:</strong> From $120 ($40/hour, minimum 2 technicians)</li>
+        <li><strong>Townhouse:</strong> From $160 ($40/hour, minimum 2 technicians)</li>
+        <li><strong>House:</strong> From $200 ($40/hour, minimum 2 technicians)</li>
       </ul>
       <p>Deep cleaning goes beyond regular maintenance to include baseboards, light fixtures, inside cabinets, window sills, and detailed scrubbing of all surfaces.</p>
 
@@ -66,7 +66,7 @@ export const BLOG_POSTS: BlogPostData[] = [
       <ul>
         <li>Transparent pricing with no hidden fees</li>
         <li>Eco-friendly, plant-based cleaning products</li>
-        <li>Fully insured and bonded cleaners</li>
+        <li>Fully insured and bonded technicians</li>
         <li>Satisfaction Guarantee</li>
         <li>Flexible scheduling (weekly, bi-weekly, monthly)</li>
       </ul>
@@ -152,7 +152,7 @@ export const BLOG_POSTS: BlogPostData[] = [
       <p>As an Oakville homeowner, choosing between regular cleaning and deep cleaning can be confusing. Both serve important purposes, but knowing which you need — and when — can save you money and keep your home in top shape.</p>
 
       <h2>What is Regular Cleaning?</h2>
-      <p>Regular cleaning is the ongoing maintenance that keeps your home consistently clean. Think of it as the routine tasks you'd do on a weekly basis. At Urban Sparkle Cleaners, our regular cleaning service ($30/hour, from $90 for apartments) includes:</p>
+      <p>Regular cleaning is the ongoing maintenance that keeps your home consistently clean. Think of it as the routine tasks you'd do on a weekly basis. At Urban Sparkle Cleaners, our regular cleaning service ($33/hour, from $99 for apartments) includes:</p>
       <ul>
         <li>Dusting all accessible surfaces</li>
         <li>Vacuuming carpets and rugs</li>
@@ -164,7 +164,7 @@ export const BLOG_POSTS: BlogPostData[] = [
       </ul>
 
       <h2>What is Deep Cleaning?</h2>
-      <p>Deep cleaning is an intensive, thorough cleaning that addresses areas often missed during regular cleaning. Our deep cleaning service ($40/hour, minimum 2 cleaners) includes everything in regular cleaning plus:</p>
+      <p>Deep cleaning is an intensive, thorough cleaning that addresses areas often missed during regular cleaning. Our deep cleaning service ($40/hour, minimum 2 technicians) includes everything in regular cleaning plus:</p>
       <ul>
         <li>Cleaning baseboards and crown molding</li>
         <li>Washing light fixtures and ceiling fans</li>
@@ -293,7 +293,7 @@ export const BLOG_POSTS: BlogPostData[] = [
         <li><strong>Apartment or Condo (1-2 bed):</strong> $90–$140</li>
         <li><strong>Townhouse (3 bed):</strong> $120–$180</li>
         <li><strong>House (3+ bedrooms):</strong> $150–$250+</li>
-        <li><strong>Hourly rate:</strong> $30–$45/hour depending on provider</li>
+        <li><strong>Hourly rate:</strong> $33–$45/hour depending on provider</li>
       </ul>
       <p>Regular cleaning includes dusting, vacuuming, mopping, bathroom cleaning, kitchen cleaning, and general tidying — everything needed to maintain a clean home between deeper cleans.</p>
 
@@ -302,7 +302,7 @@ export const BLOG_POSTS: BlogPostData[] = [
         <li><strong>Apartment or Condo:</strong> $120–$200</li>
         <li><strong>Townhouse:</strong> $160–$280</li>
         <li><strong>House (3+ bedrooms):</strong> $200–$400+</li>
-        <li><strong>Hourly rate:</strong> $40–$55/hour, usually requires 2 cleaners</li>
+        <li><strong>Hourly rate:</strong> $40–$55/hour, usually requires 2 technicians</li>
       </ul>
       <p>Deep cleaning covers everything in a regular clean plus: inside oven and fridge, baseboards, window tracks, light fixtures, cabinet interiors, and other areas typically overlooked during maintenance cleans.</p>
 
@@ -342,11 +342,11 @@ export const BLOG_POSTS: BlogPostData[] = [
       <h2>Why Urban Sparkle Cleaners for Niagara Falls House Cleaning?</h2>
       <ul>
         <li>Transparent pricing with no hidden fees</li>
-        <li>Fully insured and bonded cleaners</li>
+        <li>Fully insured and bonded technicians</li>
         <li>Eco-friendly, plant-based products</li>
         <li>Satisfaction Guarantee — we come back and fix any issues</li>
         <li>Flexible scheduling for Niagara Falls homeowners and Airbnb hosts</li>
-        <li>Regular cleaning from just $30/hr ($90 minimum)</li>
+        <li>Regular cleaning from just $33/hr ($99 minimum)</li>
       </ul>
 
       <p>Ready to get an exact quote for your Niagara Falls home? Use our <a href="/pricing">instant pricing calculator</a> or call us at (647) 460-7008. We serve all of Niagara Falls including Chippawa, Stamford, Queenston, Lundy's Lane, and Fallsview.</p>
@@ -499,7 +499,7 @@ export const BLOG_POSTS: BlogPostData[] = [
       <h2>6. Compare Transparent Pricing</h2>
       <p>Reputable Niagara Falls cleaning companies provide clear, upfront pricing. Be cautious of companies that won't give you a price estimate without coming to your home first, or that have a long list of add-on fees that weren't mentioned upfront. Look for pricing that's transparent and easy to understand:</p>
       <ul>
-        <li>Regular cleaning: $30–$45/hr ($90–$140 minimum for most providers)</li>
+        <li>Regular cleaning: $33–$45/hr ($99–$140 minimum for most providers)</li>
         <li>Deep cleaning: $40–$55/hr</li>
         <li>Move-out cleaning: priced by home size</li>
         <li>Airbnb turnover: priced by property size and frequency</li>
@@ -517,7 +517,7 @@ export const BLOG_POSTS: BlogPostData[] = [
         <li>Plant-based, eco-friendly products safe for families and pets</li>
         <li>100% Satisfaction Guarantee — we return and fix any issues within 24 hours</li>
         <li>Flexible scheduling including weekends for Airbnb turnovers</li>
-        <li>Transparent pricing starting at $30/hr with no hidden fees</li>
+        <li>Transparent pricing starting at $33/hr with no hidden fees</li>
         <li>Serving all of Niagara Falls including Chippawa, Stamford, Queenston, and Fallsview</li>
       </ul>
 

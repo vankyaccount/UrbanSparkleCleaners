@@ -20,7 +20,7 @@ export default function TermsOfServicePage() {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Terms of Service</h1>
           <p className="text-gray-500 mb-10">Last updated: March 2026</p>
 
-          <div className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-primary">
+          <div className="prose md:prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-primary">
 
             <p>
               By booking or using the services of Urban Sparkle Cleaners (&quot;we&quot;, &quot;our&quot;, or
