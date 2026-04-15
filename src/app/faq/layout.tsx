@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
+import { generatePageMetadata, generateFAQSchema } from "@/lib/seo";
+import { ALL_FAQS } from "@/content/faq";
+import { JsonLd } from "@/components/seo/JsonLd";
 
-export const metadata: Metadata = {
-  title: "Cleaning Services FAQ | Urban Sparkle Cleaners | Niagara, Hamilton & Burlington",
+export const metadata: Metadata = generatePageMetadata({
+  title: "Frequently Asked Questions | Urban Sparkle Cleaners",
   description:
-    "Answers to common questions about Urban Sparkle Cleaners. Learn about our services, pricing, booking, and eco-friendly cleaning for Niagara Falls, St. Catharines, Burlington, Hamilton & Oakville.",
-  openGraph: {
-    title: "Cleaning Services FAQ | Urban Sparkle Cleaners",
-    description:
-      "Get answers about our professional cleaning services, pricing, and booking process. Serving Niagara, Burlington, Hamilton & Oakville.",
-  },
-};
+    "Answers to common questions about Urban Sparkle Cleaners — services, pricing, booking, and eco-friendly cleaning across Burlington, Oakville, Hamilton, and Niagara.",
+  path: "/faq",
+});
 
 export default function FAQLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <JsonLd data={generateFAQSchema(ALL_FAQS)} />
+      {children}
+    </>
+  );
 }

@@ -17,6 +17,13 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // www → apex redirect (fixes 5xx on www.urbansparklecleaners.ca)
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.urbansparklecleaners.ca" }],
+        destination: "https://urbansparklecleaners.ca/:path*",
+        permanent: true,
+      },
       { source: "/cleaning-services", destination: "/services", permanent: true },
       { source: "/urban-sparkle-cleaners-book-your-cleaning-service", destination: "/book", permanent: true },
       { source: "/home-cleaning-services-grimsby", destination: "/areas/grimsby", permanent: true },
