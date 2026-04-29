@@ -51,3 +51,7 @@ next-env.d.ts
 
 # Nested legacy project directory
 urbansparklecleaners/
+
+# Local lead generation and email outreach scripts (stay on local machine)
+lead-gen/
+email-outreach/
