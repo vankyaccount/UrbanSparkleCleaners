@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
     title: "Urban Sparkle Cleaners | Professional Cleaning Services",
     description: SITE_CONFIG.description,
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/hero-cleaning.jpg", width: 1200, height: 630, alt: "Urban Sparkle Cleaners — Professional Cleaning Services in Burlington, Oakville, Hamilton & Niagara" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 },
   },
-  alternates: { canonical: SITE_CONFIG.url },
+  alternates: { canonical: "/" },
   verification: {
     // google: "your-google-verification-code",
     // other: { "msvalidate.01": "your-bing-verification-code" },
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             inLanguage: "en-CA",
           }}
         />
-        <JsonLd data={generateLocalBusinessSchema()} />
+        <JsonLd data={generateLocalBusinessSchema(undefined, { includeAggregateRating: false })} />
       </head>
       {GA_ID && (
         <>

@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/careers`,                lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/privacy-policy`,         lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
     { url: `${base}/terms-of-service`,       lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${base}/markup-mirror`,          lastModified: now, changeFrequency: "monthly", priority: 0.4 },
   ];
 
   // Service pages

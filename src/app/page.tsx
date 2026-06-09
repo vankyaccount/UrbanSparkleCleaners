@@ -1,4 +1,5 @@
-﻿import { Hero } from "@/components/home/Hero";
+﻿import type { Metadata } from "next";
+import { Hero } from "@/components/home/Hero";
 import { TrustBar } from "@/components/home/TrustBar";
 import { ServiceCards } from "@/components/home/ServiceCards";
 import { Testimonials } from "@/components/home/Testimonials";
@@ -8,10 +9,16 @@ import { CTABanner } from "@/components/home/CTABanner";
 import { HomeFAQ } from "@/components/home/HomeFAQ";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { generateFAQSchema } from "@/lib/seo";
+import { generateFAQSchema, generatePageMetadata } from "@/lib/seo";
 import { HOME_FAQS } from "@/content/faq";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = generatePageMetadata({
+  title: "Urban Sparkle Cleaners | Professional Cleaning Services in Burlington, Oakville, Hamilton & Niagara",
+  description: "Professional residential & commercial cleaning services in Burlington, Oakville, Hamilton, and the Niagara Region. Eco-friendly products, fully insured. Regular cleaning from $33/hr. Satisfaction guarantee. Call (647) 460-7008.",
+  path: "/",
+});
 
 export default function HomePage() {
   return (

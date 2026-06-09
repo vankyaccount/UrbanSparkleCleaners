@@ -25,6 +25,7 @@ export async function generateMetadata({
     title: `${post.title} | Urban Sparkle Cleaners Blog`,
     description: post.excerpt,
     path: `/blog/${slug}`,
+    ogType: "article",
   });
 }
 
@@ -42,13 +43,18 @@ export default async function BlogPostPage({
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Article",
+          "@type": "BlogPosting",
           headline: post.title,
           description: post.excerpt,
           datePublished: post.date,
-          author: { "@type": "Organization", name: SITE_CONFIG.name },
+          dateModified: post.date,
+          author: { "@type": "Organization", name: SITE_CONFIG.name, url: SITE_CONFIG.url },
           publisher: { "@type": "Organization", name: SITE_CONFIG.name, url: SITE_CONFIG.url },
           url: `${SITE_CONFIG.url}/blog/${slug}`,
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `${SITE_CONFIG.url}/blog/${slug}`,
+          },
         }}
       />
       <Breadcrumbs

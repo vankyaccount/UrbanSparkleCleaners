@@ -6,11 +6,12 @@ interface SEOProps {
   description: string;
   path: string;
   image?: string;
+  ogType?: "website" | "article";
 }
 
-export function generatePageMetadata({ title, description, path, image }: SEOProps): Metadata {
+export function generatePageMetadata({ title, description, path, image, ogType = "website" }: SEOProps): Metadata {
   const url = `${SITE_CONFIG.url}${path}`;
-  const ogImage = image || `${SITE_CONFIG.url}/images/og-image.jpg`;
+  const ogImage = image || `${SITE_CONFIG.url}/images/hero-cleaning.jpg`;
 
   return {
     title: { absolute: title },
@@ -25,7 +26,7 @@ export function generatePageMetadata({ title, description, path, image }: SEOPro
       siteName: SITE_CONFIG.name,
       images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
       locale: "en_CA",
-      type: "website",
+      type: ogType,
     },
     twitter: {
       card: "summary_large_image",
@@ -46,7 +47,7 @@ export function generateLocalBusinessSchema(city?: string, options?: { includeAg
     telephone: SITE_CONFIG.phone,
     email: SITE_CONFIG.email,
     description: SITE_CONFIG.description,
-    image: `${SITE_CONFIG.url}/images/og-default.jpg`,
+    image: `${SITE_CONFIG.url}/images/hero-cleaning.jpg`,
     priceRange: "$$",
     areaServed: city
       ? [{ "@type": "City", name: city, "@id": `https://en.wikipedia.org/wiki/${city.replace(/ /g, "_")},_Ontario` }]
