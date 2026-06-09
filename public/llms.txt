@@ -45,6 +45,7 @@ Burlington, Oakville, Hamilton, Grimsby, Stoney Creek, Ancaster, Waterdown, Niag
 - Pricing Calculator: https://urbansparklecleaners.ca/pricing
 - Service Areas: https://urbansparklecleaners.ca/areas
 - FAQ: https://urbansparklecleaners.ca/faq
+- Customer Reviews: https://urbansparklecleaners.ca/reviews
 - Blog: https://urbansparklecleaners.ca/blog
 - Contact: https://urbansparklecleaners.ca/contact
 - About: https://urbansparklecleaners.ca/about
