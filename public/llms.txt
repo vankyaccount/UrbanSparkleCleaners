@@ -38,8 +38,6 @@ Burlington, Oakville, Hamilton, Grimsby, Stoney Creek, Ancaster, Waterdown, Niag
 - **Payment:** Cash, Interac e-transfer, credit card (payment due after service)
 - **Cancellation:** 24 hours notice required
 - **Booking:** Online at https://urbansparklecleaners.ca/book or call (647) 460-7008
-- **Rating:** 4.9/5 stars
-
 ## Key Pages
 - Homepage: https://urbansparklecleaners.ca
 - All Services: https://urbansparklecleaners.ca/services
@@ -54,10 +52,27 @@ Burlington, Oakville, Hamilton, Grimsby, Stoney Creek, Ancaster, Waterdown, Niag
 - Residential Cleaning: https://urbansparklecleaners.ca/residential-cleaning
 - Commercial Cleaning: https://urbansparklecleaners.ca/commercial-cleaning
 
+## City-Specific Service Pages — Niagara Region
+
+### House Cleaning
+- House Cleaning Niagara Falls: https://urbansparklecleaners.ca/house-cleaning/niagara-falls
+- House Cleaning St. Catharines: https://urbansparklecleaners.ca/house-cleaning/st-catharines
+- House Cleaning Welland: https://urbansparklecleaners.ca/house-cleaning/welland
+
+### Deep Cleaning
+- Deep Cleaning Niagara Falls: https://urbansparklecleaners.ca/deep-cleaning/niagara-falls
+- Deep Cleaning St. Catharines: https://urbansparklecleaners.ca/deep-cleaning/st-catharines
+- Deep Cleaning Welland: https://urbansparklecleaners.ca/deep-cleaning/welland
+
+### Move-Out Cleaning
+- Move-Out Cleaning Niagara Falls: https://urbansparklecleaners.ca/move-out-cleaning/niagara-falls
+- Move-Out Cleaning St. Catharines: https://urbansparklecleaners.ca/move-out-cleaning/st-catharines
+- Move-Out Cleaning Welland: https://urbansparklecleaners.ca/move-out-cleaning/welland
+
 ## Social
 - Instagram: https://instagram.com/urbansparkle_cleaners
 
 ---
 
-Last updated: 2026-06-08
+Last updated: 2026-06-09
 Full content version: https://urbansparklecleaners.ca/llms-full.txt
