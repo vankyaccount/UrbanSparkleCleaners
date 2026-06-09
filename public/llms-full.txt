@@ -314,5 +314,5 @@ For full semantic HTML: https://urbansparklecleaners.ca/markup-mirror
 
 ---
 
-Last updated: 2026-06-08
+Last updated: 2026-06-09
 Summary version: https://urbansparklecleaners.ca/llms.txt

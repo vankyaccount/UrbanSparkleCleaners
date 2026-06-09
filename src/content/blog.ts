@@ -290,7 +290,7 @@ export const BLOG_POSTS: BlogPostData[] = [
 
       <h3>Regular / Maintenance Cleaning</h3>
       <ul>
-        <li><strong>Apartment or Condo (1-2 bed):</strong> $90–$140</li>
+        <li><strong>Apartment or Condo (1-2 bed):</strong> $99–$140</li>
         <li><strong>Townhouse (3 bed):</strong> $120–$180</li>
         <li><strong>House (3+ bedrooms):</strong> $150–$250+</li>
         <li><strong>Hourly rate:</strong> $33–$45/hour depending on provider</li>

@@ -9,7 +9,7 @@ export function CTABanner() {
           Ready for a Spotless Space?
         </h2>
         <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-          Book your professional cleaning today. Starting from just $90 for residential apartments.
+          Book your professional cleaning today. Starting from just $99 for residential apartments.
           Free consultation and no hidden fees.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

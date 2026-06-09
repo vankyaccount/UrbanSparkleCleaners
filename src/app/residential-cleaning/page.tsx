@@ -114,12 +114,12 @@ export default function ResidentialCleaningPage() {
           {/* Services Grid */}
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { href: "/services/regular-cleaning", name: "Regular Cleaning", icon: "🏠", price: "From $90" },
+              { href: "/services/regular-cleaning", name: "Regular Cleaning", icon: "🏠", price: "From $99" },
               { href: "/services/deep-cleaning", name: "Deep Cleaning", icon: "✨", price: "From $120" },
               { href: "/services/move-in-move-out-cleaning", name: "Move-In/Out", icon: "📦", price: "Get Quote" },
               { href: "/services/airbnb-cleaning", name: "Airbnb Cleaning", icon: "🏡", price: "Get Quote" },
-              { href: "/services/senior-cleaning", name: "Senior Cleaning", icon: "❤️", price: "From $90" },
-              { href: "/services/condo-cleaning", name: "Condo Cleaning", icon: "🏢", price: "From $90" },
+              { href: "/services/senior-cleaning", name: "Senior Cleaning", icon: "❤️", price: "From $99" },
+              { href: "/services/condo-cleaning", name: "Condo Cleaning", icon: "🏢", price: "From $99" },
             ].map((s) => (
               <Link key={s.href} href={s.href} className="p-4 border rounded-xl hover:border-primary hover:shadow-md transition-all flex items-center gap-4">
                 <span className="text-3xl">{s.icon}</span>

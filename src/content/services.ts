@@ -96,7 +96,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       }
     ],
     relatedServices: ["deep-cleaning", "condo-cleaning", "senior-cleaning"],
-    startingPrice: "From $90"
+    startingPrice: "From $99"
   },
 
   "deep-cleaning": {
@@ -593,7 +593,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       }
     ],
     relatedServices: ["regular-cleaning", "deep-cleaning", "condo-cleaning"],
-    startingPrice: "From $90"
+    startingPrice: "From $99"
   },
 
   "condo-cleaning": {
@@ -631,7 +631,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       </ul>
 
       <h2>Flexible Plans for Condo Owners and Renters</h2>
-      <p>We offer weekly, bi-weekly, and monthly cleaning schedules to suit every lifestyle and budget. Our condo cleaning starts at just $90 for apartments, making it an affordable investment in your quality of life. Whether you're a busy professional who barely has time to clean, a young family adjusting to condo living, or a snowbird who needs their unit maintained while away, we have a plan that fits.</p>
+      <p>We offer weekly, bi-weekly, and monthly cleaning schedules to suit every lifestyle and budget. Our condo cleaning starts at just $99 for apartments, making it an affordable investment in your quality of life. Whether you're a busy professional who barely has time to clean, a young family adjusting to condo living, or a snowbird who needs their unit maintained while away, we have a plan that fits.</p>
       <p>We also offer one-time deep cleaning, move-in/move-out cleaning, and seasonal cleaning for condo owners who need occasional professional help rather than a regular schedule.</p>
 
       <h2>Serving Condo Communities Across the Golden Horseshoe</h2>
@@ -660,7 +660,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       },
       {
         question: "How much does condo cleaning cost?",
-        answer: "Our condo cleaning service starts from $90 for apartments and smaller units. The exact cost depends on the size of your unit and the level of cleaning required. Contact us at (647) 460-7008 for a personalized quote."
+        answer: "Our condo cleaning service starts from $99 for apartments and smaller units. The exact cost depends on the size of your unit and the level of cleaning required. Contact us at (647) 460-7008 for a personalized quote."
       },
       {
         question: "Can you clean my condo while I'm at work?",
@@ -676,7 +676,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       }
     ],
     relatedServices: ["regular-cleaning", "deep-cleaning", "move-in-move-out-cleaning"],
-    startingPrice: "From $90"
+    startingPrice: "From $99"
   },
 
   "office-cleaning": {

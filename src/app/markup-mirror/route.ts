@@ -187,7 +187,7 @@ export async function GET() {
 </section>
 
 <footer>
-  <p>Last updated: 2026-06-08. Pricing source: <a href="https://urbansparklecleaners.ca/pricing">urbansparklecleaners.ca/pricing</a></p>
+  <p>Last updated: 2026-06-09. Pricing source: <a href="https://urbansparklecleaners.ca/pricing">urbansparklecleaners.ca/pricing</a></p>
   <p>Full AI content index: <a href="https://urbansparklecleaners.ca/llms-full.txt">llms-full.txt</a> | Summary: <a href="https://urbansparklecleaners.ca/llms.txt">llms.txt</a></p>
 </footer>
 

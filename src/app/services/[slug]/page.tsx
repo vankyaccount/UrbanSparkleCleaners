@@ -147,7 +147,7 @@ export default async function ServicePage({
               {service.name} Pricing
             </h2>
             <p className="text-3xl font-bold text-primary mb-2">
-              {content?.startingPrice || "From $90"}
+              {content?.startingPrice || "From $99"}
             </p>
             <p className="text-gray-600 mb-4">
               Transparent pricing with no hidden fees. Get an instant estimate.
