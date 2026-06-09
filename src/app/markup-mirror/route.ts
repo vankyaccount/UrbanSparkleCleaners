@@ -164,6 +164,28 @@ export async function GET() {
   </ul>
 </section>
 
+<section id="city-service-pages">
+  <h2>City-Specific Service Pages — Niagara Region</h2>
+  <h3>House Cleaning</h3>
+  <ul>
+    <li><a href="https://urbansparklecleaners.ca/house-cleaning/niagara-falls">House Cleaning in Niagara Falls, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/house-cleaning/st-catharines">House Cleaning in St. Catharines, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/house-cleaning/welland">House Cleaning in Welland, ON</a></li>
+  </ul>
+  <h3>Deep Cleaning</h3>
+  <ul>
+    <li><a href="https://urbansparklecleaners.ca/deep-cleaning/niagara-falls">Deep Cleaning in Niagara Falls, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/deep-cleaning/st-catharines">Deep Cleaning in St. Catharines, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/deep-cleaning/welland">Deep Cleaning in Welland, ON</a></li>
+  </ul>
+  <h3>Move-Out Cleaning</h3>
+  <ul>
+    <li><a href="https://urbansparklecleaners.ca/move-out-cleaning/niagara-falls">Move-Out Cleaning in Niagara Falls, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/move-out-cleaning/st-catharines">Move-Out Cleaning in St. Catharines, ON</a></li>
+    <li><a href="https://urbansparklecleaners.ca/move-out-cleaning/welland">Move-Out Cleaning in Welland, ON</a></li>
+  </ul>
+</section>
+
 <footer>
   <p>Last updated: 2026-06-08. Pricing source: <a href="https://urbansparklecleaners.ca/pricing">urbansparklecleaners.ca/pricing</a></p>
   <p>Full AI content index: <a href="https://urbansparklecleaners.ca/llms-full.txt">llms-full.txt</a> | Summary: <a href="https://urbansparklecleaners.ca/llms.txt">llms.txt</a></p>

@@ -91,7 +91,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   "niagara-falls": {
     metaTitle: "House Cleaning Services in Niagara Falls, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Niagara Falls, Ontario. Residential, deep, move-in/out, Airbnb, and commercial cleaning. Eco-friendly and fully insured. Call (647) 460-7008.",
+      "Cleaning services in Niagara Falls, ON — house, deep, move-out & Airbnb turnovers. Eco-friendly, fully insured since 2013. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Niagara Falls, ON",
     heroSubheading:
       "Niagara Falls' trusted cleaning team. Eco-friendly products, fully insured, Satisfaction Guarantee. Serving Chippawa, Stamford, Queenston and all of Niagara Falls.",
@@ -184,7 +184,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   "st-catharines": {
     metaTitle: "House Cleaning Services in St. Catharines, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in St. Catharines, Ontario. Regular, deep, move-in/out, and Airbnb cleaning. Fully insured, eco-friendly. Call (647) 460-7008.",
+      "All cleaning services in St. Catharines, ON — house cleaning, deep cleans, move-out & office cleaning. Fully insured, eco-friendly. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in St. Catharines, ON",
     heroSubheading:
       "St. Catharines' trusted cleaning professionals. Serving Port Dalhousie, Glenridge, Merritton, downtown and all of the Garden City. Eco-friendly, insured, guaranteed.",
@@ -333,7 +333,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   welland: {
     metaTitle: "House Cleaning Services in Welland, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Welland, Ontario. Regular, deep, move-in/out, and commercial cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "Cleaning services in Welland, ON — residential & commercial. House cleaning, deep cleans, move-out & janitorial. Eco-friendly, insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Welland, ON",
     heroSubheading:
       "Welland's trusted cleaning professionals. Serving all of Welland and the Canal City with reliable, eco-friendly cleaning services.",
@@ -391,7 +391,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   grimsby: {
     metaTitle: "House Cleaning Services in Grimsby, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Grimsby, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, insured, satisfaction guaranteed. Call (647) 460-7008.",
+      "House cleaning in Grimsby, ON — Niagara Escarpment & Lake Ontario shoreline communities. Regular, deep & move-out cleans. Eco-friendly. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Grimsby, ON",
     heroSubheading:
       "Grimsby's trusted cleaning professionals. From beachfront homes to new builds, we deliver spotless results with eco-friendly products.",
@@ -440,7 +440,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   thorold: {
     metaTitle: "House Cleaning Services in Thorold, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Thorold, Ontario. Regular, deep, move-in/out, and commercial cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "House cleaning in Thorold, ON — serving Beaverdams, Allanburg & all Thorold neighbourhoods. Regular, deep & move-out. Fully insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Thorold, ON",
     heroSubheading:
       "Thorold's trusted cleaning team. Serving all of Thorold with reliable, eco-friendly, fully insured cleaning services.",
@@ -490,7 +490,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   "fort-erie": {
     metaTitle: "House Cleaning Services in Fort Erie, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Fort Erie, Ontario. Regular, deep, move-in/out, and Airbnb cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "House cleaning in Fort Erie, ON — serving Ridgeway, Crystal Beach & Garrison Road area. Regular, deep & Airbnb turnaround. Fully insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Fort Erie, ON",
     heroSubheading:
       "Fort Erie's trusted cleaning team. Serving Crystal Beach, Ridgeway, Stevensville, and all of Fort Erie with eco-friendly, insured cleaning services.",
@@ -556,7 +556,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   "stoney-creek": {
     metaTitle: "House Cleaning Services in Stoney Creek, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Stoney Creek, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, insured, satisfaction guaranteed. Call (647) 460-7008.",
+      "House cleaning in Stoney Creek, ON — Battlefield, Winona & lakeside communities. Regular, deep & move-out. Eco-friendly, insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Stoney Creek, ON",
     heroSubheading:
       "Stoney Creek's trusted cleaning team. Serving all of Stoney Creek with reliable, eco-friendly cleaning for homes and businesses.",
@@ -599,7 +599,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   ancaster: {
     metaTitle: "House Cleaning Services in Ancaster, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Ancaster, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "House cleaning in Ancaster, ON — Meadowlands, Mohawk & rural Ancaster properties. Regular, deep & move-out cleaning. Fully insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Ancaster, ON",
     heroSubheading:
       "Ancaster's trusted cleaning professionals. Delivering spotless results for homes and businesses throughout this beautiful Hamilton community.",
@@ -643,7 +643,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   waterdown: {
     metaTitle: "House Cleaning Services in Waterdown, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Waterdown, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, insured, satisfaction guaranteed. Call (647) 460-7008.",
+      "House cleaning in Waterdown, ON — Flamborough families' trusted cleaner. Regular, deep & move-out cleaning. Eco-friendly, insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Waterdown, ON",
     heroSubheading:
       "Waterdown's trusted cleaning team. Eco-friendly products, fully insured, delivering spotless homes throughout this growing Hamilton community.",
@@ -687,7 +687,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   fonthill: {
     metaTitle: "House Cleaning Services in Fonthill, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Fonthill, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "House cleaning in Fonthill, ON — heart of Pelham Township. Regular, deep & move-out cleans for Fonthill homes. Eco-friendly, insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Fonthill, ON",
     heroSubheading:
       "Fonthill's trusted cleaning professionals. Serving this growing Pelham community with reliable, eco-friendly cleaning services.",
@@ -848,7 +848,7 @@ export const AREA_CONTENT: Record<string, AreaContent> = {
   "port-colborne": {
     metaTitle: "House Cleaning Services in Port Colborne, ON | Urban Sparkle Cleaners",
     metaDescription:
-      "Professional house cleaning in Port Colborne, Ontario. Regular, deep, and move-in/out cleaning. Eco-friendly, fully insured. Call (647) 460-7008.",
+      "House cleaning in Port Colborne, ON — canal city cleaning for Humberstone, Sugarloaf & all of Port Colborne. Eco-friendly, insured. Call (647) 460-7008.",
     heroHeading: "Professional House Cleaning Services in Port Colborne, ON",
     heroSubheading:
       "Port Colborne's trusted cleaning team. Serving all of Port Colborne with reliable, eco-friendly cleaning services.",

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SERVICE_AREAS, SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { BLOG_POSTS } from "@/content/blog";
+import { HOUSE_CLEANING_CITIES, DEEP_CLEANING_CITIES, MOVE_OUT_CLEANING_CITIES } from "@/content/service-city";
 
 const base = SITE_CONFIG.url;
 
@@ -51,5 +52,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages, ...blogPages];
+  // Service+city landing pages (house cleaning, deep cleaning, move-out cleaning)
+  const serviceCityPages: MetadataRoute.Sitemap = [
+    ...HOUSE_CLEANING_CITIES.map((p) => ({
+      url: `${base}/house-cleaning/${p.city}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...DEEP_CLEANING_CITIES.map((p) => ({
+      url: `${base}/deep-cleaning/${p.city}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...MOVE_OUT_CLEANING_CITIES.map((p) => ({
+      url: `${base}/move-out-cleaning/${p.city}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  return [...staticPages, ...servicePages, ...serviceCityPages, ...areaPages, ...blogPages];
 }
